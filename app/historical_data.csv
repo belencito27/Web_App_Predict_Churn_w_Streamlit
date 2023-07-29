@@ -1,0 +1,6 @@
+state_code,tenure,contract_length,promotions_offered,remaining_term,last_nps_rating,area_code,international_plan,voice_mail_plan,number_vmail_messages,total_day_minutes,total_day_calls,total_day_charge,total_eve_minutes,total_eve_calls,total_eve_charge,total_night_minutes,total_night_calls,total_night_charge,total_intl_minutes,total_intl_calls,total_intl_charge,number_customer_service_calls,prediction
+HI,121,16.0,No,12.5,5.5,area_code_510,no,no,26,175.54845642,83,29.8770711135,181.5534617765,85,15.783921261,199.3737793505,87,9.086335376,10.006819688,10,2.7027428405,4,0
+HI,121,16.0,Yes,8.95,6.47,area_code_510,no,no,26,175.54845642,83,29.8770711135,181.5534617765,85,15.783921261,199.3737793505,87,9.086335376,10.006819688,10,2.7027428405,4,0
+HI,121,16.0,Yes,12.5,5.5,area_code_510,no,no,26,175.54845642,83,29.8770711135,181.5534617765,85,15.783921261,199.3737793505,87,9.086335376,10.006819688,10,2.7027428405,4,0
+HI,121,16.0,No,3.93,2.33,area_code_510,no,no,26,175.54845642,83,29.8770711135,181.5534617765,85,15.783921261,199.3737793505,87,9.086335376,10.006819688,10,2.7027428405,4,1
+HI,34,13.15,No,12.5,2.87,area_code_510,no,no,32,117.82,41,33.89,209.93,101,18.25,230.86,101,10.7,12.75,10,2.7027428405,4,0

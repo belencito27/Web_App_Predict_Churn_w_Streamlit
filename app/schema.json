@@ -1,0 +1,305 @@
+{
+    "column_info": {
+        "state_code": {
+            "dtype": "object",
+            "values": [
+                "HI",
+                "MI",
+                "NH",
+                "MN",
+                "TX",
+                "WY",
+                "IN",
+                "IL",
+                "TN",
+                "MA",
+                "DC",
+                "NV",
+                "PA",
+                "AK",
+                "NM",
+                "WI",
+                "ND",
+                "NJ",
+                "AR",
+                "NE",
+                "NY",
+                "OK",
+                "SD",
+                "KY",
+                "ID",
+                "VT",
+                "IA",
+                "MT",
+                "AL",
+                "MS",
+                "ME",
+                "WV",
+                "RI",
+                "VA",
+                "OH",
+                "SC",
+                "MD",
+                "CO",
+                "AZ",
+                "NC",
+                "CT",
+                "MO",
+                "UT",
+                "DE",
+                "WA",
+                "KS",
+                "CA",
+                "FL",
+                "LA",
+                "GA",
+                "OR"
+            ]
+        },
+        "tenure": {
+            "dtype": "int64",
+            "values": [
+                1,
+                242
+            ]
+        },
+        "contract_length": {
+            "dtype": "float64",
+            "values": [
+                8.0,
+                24.0
+            ]
+        },
+        "promotions_offered": {
+            "dtype": "object",
+            "values": [
+                "Yes",
+                "No"
+                
+            ]
+        },
+        "remaining_term": {
+            "dtype": "float64",
+            "values": [
+                1.0,
+                24.0
+            ]
+        },
+        "last_nps_rating": {
+            "dtype": "float64",
+            "values": [
+                1.0,
+                10.0
+            ]
+        },
+        "area_code": {
+            "dtype": "object",
+            "values": [
+                "area_code_510",
+                "area_code_408",
+                "area_code_415"
+            ]
+        },
+        "international_plan": {
+            "dtype": "object",
+            "values": [
+                "no",
+                "yes"
+            ]
+        },
+        "voice_mail_plan": {
+            "dtype": "object",
+            "values": [
+                "no",
+                "yes"
+            ]
+        },
+        "number_vmail_messages": {
+            "dtype": "int64",
+            "values": [
+                0,
+                52
+            ]
+        },
+        "total_day_minutes": {
+            "dtype": "float64",
+            "values": [
+                0.00509014,
+                351.0918227
+            ]
+        },
+        "total_day_calls": {
+            "dtype": "int64",
+            "values": [
+                1,
+                165
+            ]
+        },
+        "total_day_charge": {
+            "dtype": "float64",
+            "values": [
+                0.027049747,
+                59.72709248
+            ]
+        },
+        "total_eve_minutes": {
+            "dtype": "float64",
+            "values": [
+                5.367494853,
+                357.7394287
+            ]
+        },
+        "total_eve_calls": {
+            "dtype": "int64",
+            "values": [
+                1,
+                169
+            ]
+        },
+        "total_eve_charge": {
+            "dtype": "float64",
+            "values": [
+                1.052620602,
+                30.51522192
+            ]
+        },
+        "total_night_minutes": {
+            "dtype": "float64",
+            "values": [
+                3.896506701,
+                394.851052
+            ]
+        },
+        "total_night_calls": {
+            "dtype": "int64",
+            "values": [
+                1,
+                173
+            ]
+        },
+        "total_night_charge": {
+            "dtype": "float64",
+            "values": [
+                0.472320072,
+                17.70035068
+            ]
+        },
+        "total_intl_minutes": {
+            "dtype": "float64",
+            "values": [
+                0.032251626,
+                19.98138775
+            ]
+        },
+        "total_intl_calls": {
+            "dtype": "int64",
+            "values": [
+                0,
+                20
+            ]
+        },
+        "total_intl_charge": {
+            "dtype": "float64",
+            "values": [
+                0.007152292,
+                5.398333389
+            ]
+        },
+        "number_customer_service_calls": {
+            "dtype": "int64",
+            "values": [
+                0,
+                9
+            ]
+        },
+        "churn": {
+            "dtype": "object",
+            "values": [
+                "no",
+                "yes"
+            ]
+        }
+    },
+    "transformed_columns": {
+        "transformed_columns": [
+            "tenure",
+            "contract_length",
+            "remaining_term",
+            "last_nps_rating",
+            "number_vmail_messages",
+            "total_day_calls",
+            "total_eve_calls",
+            "total_night_calls",
+            "total_intl_calls",
+            "number_customer_service_calls",
+            "total_eve_minutes_missing",
+            "day_ratio",
+            "eve_ratio",
+            "night_ratio",
+            "intl_ratio",
+            "unhappy_customers",
+            "state_code_AK",
+            "state_code_AL",
+            "state_code_AR",
+            "state_code_AZ",
+            "state_code_CA",
+            "state_code_CO",
+            "state_code_CT",
+            "state_code_DC",
+            "state_code_DE",
+            "state_code_FL",
+            "state_code_GA",
+            "state_code_HI",
+            "state_code_IA",
+            "state_code_ID",
+            "state_code_IL",
+            "state_code_IN",
+            "state_code_KS",
+            "state_code_KY",
+            "state_code_LA",
+            "state_code_MA",
+            "state_code_MD",
+            "state_code_ME",
+            "state_code_MI",
+            "state_code_MN",
+            "state_code_MO",
+            "state_code_MS",
+            "state_code_MT",
+            "state_code_NC",
+            "state_code_ND",
+            "state_code_NE",
+            "state_code_NH",
+            "state_code_NJ",
+            "state_code_NM",
+            "state_code_NV",
+            "state_code_NY",
+            "state_code_OH",
+            "state_code_OK",
+            "state_code_OR",
+            "state_code_PA",
+            "state_code_RI",
+            "state_code_SC",
+            "state_code_SD",
+            "state_code_TN",
+            "state_code_TX",
+            "state_code_UT",
+            "state_code_VA",
+            "state_code_VT",
+            "state_code_WA",
+            "state_code_WI",
+            "state_code_WV",
+            "state_code_WY",
+            "promotions_offered_No",
+            "promotions_offered_Yes",
+            "area_code_area_code_408",
+            "area_code_area_code_415",
+            "area_code_area_code_510",
+            "area_code_missing",
+            "international_plan_no",
+            "international_plan_yes",
+            "voice_mail_plan_missing",
+            "voice_mail_plan_no",
+            "voice_mail_plan_yes"
+        ]
+    }
+}
